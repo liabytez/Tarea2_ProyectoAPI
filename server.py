@@ -8,9 +8,9 @@ app = Flask(__name__)
 # Configuración de la base de datos
 DB_CONFIG = {
     'host': 'localhost',
-    'database': 'tu_base_datos',
-    'user': 'tu_usuario',
-    'password': 'tu_contraseña',
+    'database': 'postgres',
+    'user': 'postgres',
+    'password': 'password',
     'port': 5432
 }
 
